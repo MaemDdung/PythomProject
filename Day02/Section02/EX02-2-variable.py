@@ -28,7 +28,7 @@ addresds = '''우편번호 12345
 print(addresds)
 
 
-# 잘못된 변수명
+# 잘못된 변수명.
 # 2mybay = "python1"
 # my-bay = "python2"
 # my bay = "python3"
