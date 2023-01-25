@@ -1,7 +1,7 @@
-my_list = []
-n = 1
-while n != 0:
-    n = int(input("정수를 입력하세요(종료는 0입니다.>>>"))
-    my_list.append(n)
-my_list.pop()
-print(my_list)
+dan = 2
+while dan <= 9:
+    n = 1
+    while n <= 9:
+        print("{}X{}={} ".format(dan,n,dan*n),end="")
+        n += 1
+    dan += 1
