@@ -51,10 +51,18 @@ print(result)
 print(plus(2, 5))
 
 area = 0
-def move():
+def rmove():
     global area
-    area += 3
-    return area
+    area += 1
 
-result = move()
-print('유닛이 오른쪽으로 {}칸 이동했습니다'.format(result))
+def lmove():
+    global area
+    area -= 1
+
+rmove()
+rmove()
+rmove()
+lmove()
+lmove()
+lmove()
+print('유닛이 오른쪽으로 {}칸 이동했습니다'.format(area))
