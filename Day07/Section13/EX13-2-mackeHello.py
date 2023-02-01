@@ -16,9 +16,11 @@ open함수 모드
 '''
 
 
-file = open('hello.txt', "wt")
-file.write('안녕하세요\n')
-file.write('반갑습니다\n')
+file = open('hello.txt', "wt", encoding='UTF-8' )
+file.write('안녕하세요.')
+file.write('\n')
+file.write('반갑습니다.')
+file.write('\n')
 print('hello.txt 파일이 생성 되었습니다.')
 file.close()
 
