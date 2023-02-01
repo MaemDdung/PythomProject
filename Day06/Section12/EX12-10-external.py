@@ -23,20 +23,21 @@ b = np.array([4,5,6])
 
 # 각 요소 더하기
 c = a + b
-c = np.add(a,b)
+c = np.add(a, b)
 print(c)
 
 #각 요소 빼기
-c= a-b
-c = np.subtract(a,b)
+c = a-b
+c = np.subtract(a, b)
 print(c)
 
 #각 요소 나누기
-c= a / b
-c = np.divide(a,b)
+c = a / b
+c = np.divide(a, b)
 print(c)
 
 #각 요소 나누기
-c= a * b
-c = np.multiply(a,b)
+c = a * b
+c = np.multiply(a, b)
+print(id(c))
 print(c)
