@@ -14,7 +14,7 @@ with open('../../Day07/Section13/hello.txt', 'rb') as source:
             if not buffer:
                 break
             copy.write(buffer)
-print("hello2.txt파일이 복사 되었습니다.")
+print("hello2.txt파일이 복사되었습니다.")
 
 
 
