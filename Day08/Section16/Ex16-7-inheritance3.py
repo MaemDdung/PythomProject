@@ -1,7 +1,3 @@
-'''
-파일명 : Ex16-7-inheritance3.py
-'''
-
 class Car:
 
     max_oil = 50    # 최대 주유량
